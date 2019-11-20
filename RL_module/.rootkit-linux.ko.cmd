@@ -1,0 +1,1 @@
+cmd_/lkm/RL_module/rootkit-linux.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /lkm/RL_module/rootkit-linux.ko /lkm/RL_module/rootkit-linux.o /lkm/RL_module/rootkit-linux.mod.o
